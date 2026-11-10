@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Higgsfield Studio · Todo Higgsfield dentro de Claude</title>
+<meta name="description" content="Plugin para Claude Code: un agente y 17 skills para generar imagen, video, audio, 3D, anuncios y más con Higgsfield.">
+<meta name="theme-color" content="#0a0b08">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Geist+Mono:wght@400;500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+
+<header class="hero">
+  <nav class="nav" aria-label="Principal">
+    <a class="nav__marca" href="#"><span class="nav__cuadro" aria-hidden="true"></span>Higgsfield Studio</a>
+    <ul class="nav__lista">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#como">Cómo funciona</a></li>
+      <li><a href="#instalar">Instalar</a></li>
+      <li><a class="nav__gh" href="https://github.com/Hainrixz/higgsfield-studio">GitHub</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero__cuerpo">
+    <div class="hero__texto">
+      <p class="ceja"><span class="ceja__cuadro" aria-hidden="true"></span>Plugin para Claude Code · v1.0</p>
+      <h1 class="titular"><span class="titular__a">Higgsfield</span><span class="titular__b">Studio<span class="titular__cursor" aria-hidden="true"></span></span></h1>
+      <p class="bajada">Todo Higgsfield dentro de Claude. Pides la pieza y sale: imagen, video, audio, 3D, anuncios y lo que venga después.</p>
+      <div class="hero__acciones">
+        <a class="boton" href="#instalar">Instalar</a>
+        <a class="boton boton--linea" href="#skills">Ver las 17 skills</a>
+      </div>
+      <dl class="cifras">
+        <div><dt>Agente</dt><dd>1</dd></div>
+        <div><dt>Skills</dt><dd>17</dd></div>
+        <div><dt>Herramientas</dt><dd>150</dd></div>
+        <div><dt>Hooks</dt><dd>0</dd></div>
+      </dl>
+    </div>
+
+    <div class="mesa" role="img" aria-label="Mesa de control con ocho canales encendidos: imagen, video, audio, 3D, anuncios, UGC, personajes y presets">
+      <div class="mesa__barra"><span>Mesa de control</span><span class="mesa__vivo"><i></i>En vivo</span></div>
+      <div class="mesa__tiras"><div class="tira" style="--d:2.6s;--r:0.00s"><span class="tira__n">01</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">IMG</span><span class="tira__led"></span></div><div class="tira" style="--d:3.4s;--r:-0.37s"><span class="tira__n">02</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">VID</span><span class="tira__led"></span></div><div class="tira" style="--d:2.1s;--r:-0.74s"><span class="tira__n">03</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">AUD</span><span class="tira__led"></span></div><div class="tira" style="--d:3.9s;--r:-1.11s"><span class="tira__n">04</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">3D</span><span class="tira__led"></span></div><div class="tira" style="--d:2.9s;--r:-1.48s"><span class="tira__n">05</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">ADS</span><span class="tira__led"></span></div><div class="tira" style="--d:3.2s;--r:-1.85s"><span class="tira__n">06</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">UGC</span><span class="tira__led"></span></div><div class="tira" style="--d:2.4s;--r:-2.22s"><span class="tira__n">07</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">CHR</span><span class="tira__led"></span></div><div class="tira" style="--d:3.6s;--r:-2.59s"><span class="tira__n">08</span><div class="tira__seg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="tira__c">FX</span><span class="tira__led"></span></div></div>
+      <div class="mesa__pie"><span>&gt; hazme las fotos de mi producto y anímalas</span></div>
+    </div>
+  </div>
+</header>
+
+<main id="contenido">
+  <section class="tres" aria-label="Principios">
+    <article><span class="tres__n">01</span><h2>Genera directo</h2><p>Pedir la pieza es la autorización. El costo se dice en una línea y el trabajo sigue. No hay un segundo “sí” que nunca llega.</p></article>
+    <article><span class="tres__n">02</span><h2>Catálogo en vivo</h2><p>Los modelos y las plantillas se leen del propio Higgsfield en cada trabajo. Cuando sale uno nuevo, ya lo tienes.</p></article>
+    <article><span class="tres__n">03</span><h2>Cero hooks</h2><p>Nada intercepta las llamadas. Las reglas de dinero están escritas donde puedes leerlas, no en un script que bloquea.</p></article>
+  </section>
+
+  <section class="skills" id="skills">
+    <header class="seccion__cab"><p class="ceja"><span class="ceja__cuadro" aria-hidden="true"></span>17 canales</p><h2>Una skill por oficio. Úsalas sueltas o deja que el agente las encadene.</h2></header>
+    <ol class="rejilla">
+      <li class="canal"><div class="canal__top"><span class="canal__n">01</span><code>estudio</code></div><h3>Núcleo</h3><p>Conecta, sube tus archivos, dice el costo, espera el resultado y lo entrega. Las demás la cargan primero.</p><p class="canal__dice">“¿Tengo Higgsfield conectado?”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">02</span><code>imagen</code></div><h3>Imagen</h3><p>Texto a imagen, edición con referencia, tipografía, GIF y SVG nativos, miniaturas.</p><p class="canal__dice">“Hazme la miniatura de este video”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">03</span><code>video</code></div><h3>Video</h3><p>Texto a video, varias tomas, fotogramas de inicio y fin, videos narrados o sin rostro.</p><p class="canal__dice">“Un video de 10 segundos de…”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">04</span><code>animar</code></div><h3>Animar</h3><p>Imagen fija a video, copiar un movimiento, cambiar un objeto dentro de un video.</p><p class="canal__dice">“Anima esta foto”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">05</span><code>audio</code></div><h3>Audio</h3><p>Voz, música, doblaje a 18 idiomas, clonar o cambiar una voz, lipsync.</p><p class="canal__dice">“Dobla este video al inglés”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">06</span><code>producto</code></div><h3>Producto</h3><p>Fotos de catálogo y de campaña desde la foto real de tu producto.</p><p class="canal__dice">“Fotos de mi producto en fondo blanco”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">07</span><code>anuncios</code></div><h3>Anuncios</h3><p>Ads Studio de principio a fin, micro-dramas, multiplicar un anuncio que ya funciona.</p><p class="canal__dice">“Un anuncio para TikTok de esta URL”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">08</span><code>ugc</code></div><h3>UGC</h3><p>Una persona hablando a cámara de tu producto: testimonio, unboxing, try-on.</p><p class="canal__dice">“Un UGC de 15 segundos”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">09</span><code>personajes</code></div><h3>Personajes</h3><p>El mismo rostro en todas tus piezas: Soul entrenado, elementos de referencia, AI Influencer.</p><p class="canal__dice">“Crea el avatar de mi marca”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">10</span><code>presets</code></div><h3>Presets</h3><p>Plantillas virales, Genjutsu, Katana, Shorts y explainers. Se navegan; se ejecutan cuando lo pides.</p><p class="canal__dice">“¿Qué efectos virales hay?”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">11</span><code>editar</code></div><h3>Editar</h3><p>Escalar a 4K, ampliar el encuadre, pasar a 9:16, quitar fondo, montar y dar color.</p><p class="canal__dice">“Pásalo a vertical y súbelo a 4K”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">12</span><code>tres-d</code></div><h3>3D</h3><p>De imagen a modelo 3D con rig y animación, y escenas 3D con ángulos de cámara.</p><p class="canal__dice">“Convierte este personaje en 3D”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">13</span><code>web-y-juegos</code></div><h3>Webs y juegos</h3><p>Sitios, apps y juegos publicados desde la conversación.</p><p class="canal__dice">“Hazme la landing de mi producto”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">14</span><code>publicar</code></div><h3>Publicar</h3><p>Sube a TikTok con música en tendencia. El envío final siempre es tuyo.</p><p class="canal__dice">“Súbelo a mi TikTok”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">15</span><code>analizar</code></div><h3>Analizar</h3><p>Desglose de un video y predicción de viralidad, sin métricas inventadas.</p><p class="canal__dice">“¿Este video va a retener?”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">16</span><code>cuenta</code></div><h3>Cuenta</h3><p>Saldo, movimientos, proyectos y carpetas.</p><p class="canal__dice">“¿Cuántos créditos me quedan?”</p></li>
+      <li class="canal"><div class="canal__top"><span class="canal__n">17</span><code>direccion-de-arte</code></div><h3>Dirección de arte</h3><p>Once bloques para que el prompt salga de campaña y no de banco de imágenes.</p><p class="canal__dice">“Mejora este prompt, se ve a IA”</p></li>
+    </ol>
+  </section>
+
+  <section class="como" id="como">
+    <header class="seccion__cab"><p class="ceja"><span class="ceja__cuadro" aria-hidden="true"></span>Señal</p><h2>De la petición al archivo, en cinco pasos.</h2></header>
+    <ol class="pasos">
+      <li><span>01</span><h3>Pides</h3><p>En tus palabras. Una pieza o una campaña entera.</p></li>
+      <li><span>02</span><h3>Enruta</h3><p>El agente parte el encargo y carga la skill de cada paso.</p></li>
+      <li><span>03</span><h3>Genera</h3><p>Sube tus archivos, dice el costo y lanza.</p></li>
+      <li><span>04</span><h3>Espera</h3><p>Sin reenviar a ciegas ni cobrar doble.</p></li>
+      <li><span>05</span><h3>Entrega</h3><p>Archivos, prompts y créditos gastados en <code>salidas/</code>.</p></li>
+    </ol>
+  </section>
+
+  <section class="instalar" id="instalar">
+    <header class="seccion__cab"><p class="ceja"><span class="ceja__cuadro" aria-hidden="true"></span>Instalación</p><h2>Dos comandos y tu cuenta de Higgsfield.</h2></header>
+    <div class="instalar__cols">
+      <div class="consola">
+        <div class="consola__barra">Claude Code</div>
+<pre><code><span class="c"># 1. Instala el plugin</span>
+/plugin marketplace add Hainrixz/higgsfield-studio
+/plugin install higgsfield-studio@higgsfield-studio
+
+<span class="c"># 2. Conecta Higgsfield (si aún no lo tienes)</span>
+claude mcp add --transport http --scope user \
+  higgsfield https://mcp.higgsfield.ai/mcp
+
+<span class="c"># 3. Pide</span>
+<span class="p">&gt;</span> hazme una imagen de producto para Instagram</code></pre>
+      </div>
+      <ul class="nunca">
+        <li><strong>Nunca compra créditos</strong> ni cambia tu plan.</li>
+        <li><strong>Nunca activa</strong> generaciones ilimitadas por su cuenta.</li>
+        <li><strong>Nunca publica ni borra</strong> sin que lo pidas.</li>
+        <li><strong>Nunca genera de más:</strong> lo que pediste, ni una variante extra.</li>
+        <li><strong>Nunca inventa</strong> un precio ni una métrica.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <p>Hecho por <a href="https://tododeia.com">Enrique Rocha</a> · MIT · No afiliado a Higgsfield.</p>
+  <p><a href="https://github.com/Hainrixz/higgsfield-studio">github.com/Hainrixz/higgsfield-studio</a></p>
+</footer>
+</body>
+</html>

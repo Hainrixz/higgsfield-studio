@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "higgsfield-studio",
+  "owner": { "name": "Enrique Rocha", "url": "https://tododeia.com" },
+  "description": "Higgsfield Studio: todas las funciones de Higgsfield como agente y skills para Claude, en español.",
+  "plugins": [
+    {
+      "name": "higgsfield-studio",
+      "source": "./",
+      "description": "Un agente y 17 skills para generar imagen, video, audio, 3D, anuncios, UGC y más con el MCP de Higgsfield.",
+      "author": { "name": "Enrique Rocha", "url": "https://tododeia.com" },
+      "homepage": "https://tododeia.com",
+      "license": "MIT",
+      "category": "design",
+      "keywords": ["higgsfield", "imagen", "video", "audio", "anuncios", "ugc", "español"]
+    }
+  ]
+}
